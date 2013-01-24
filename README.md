@@ -46,6 +46,6 @@ RFID will eventually replace barcodes for grocery tagging, therefore creating ne
 
 ## Credit
 
-** Tofi Buzali
-** David Gomez Urquiza
-** Adolfo Bucay
+* Tofi Buzali
+* David Gomez Urquiza
+* Adolfo Bucay
