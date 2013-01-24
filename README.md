@@ -20,3 +20,26 @@ The powerful, yet energy efficient microcontroller, Microchip PIC24FJ256GA106 wa
 
 -![alt text](http://i.imgur.com/Lk5wWZK.png "Diagram of embeded device")
 
+### Backend
+
+Data is exchanged through the use of a RESTful web service built using the Django web framework; written in Python. The API is built to unify the communication between the  backend system and the embedded device and frontend interface.
+The embedded device sends a POST request to the web server containing the user ID and a product UPC code. A record is generated in the database. Then a response is built, generally, it contains the product name, price, and category. The information contained in the response is then displayed on the device LCD display as visual feedback for the user.
+When the web service tries to match the UPC code against the records in the database, and a record is not found, a request is sent to third party services, which is used to retrieve and cache relevant information about a product.
+Accessing the database is done via an Object-relational mapping (ORM) to ease the workflow and use a higher layer of abstraction of the database models.
+
+-![alt text](http://i.imgur.com/3cfXLOw.png "Backend diagram")
+
+
+### Frontend
+
+Users can access and manage the information recollected by the embedded device by using a web application.
+The web application communicates to the backend through the RESTful API, where a user can easily outperform the actions the device is able to do. The user can perform actions such as add or remove a product, modify the quantities, or order the products directly from the supermarket. 
+The web application is accessible from mobile devices or computers, allowing the user to access the service while in a supermarket, even several users can manage the grocery list in real time making it possible to add products on the go.
+
+-![alt text](http://i.imgur.com/Tvg8y06.png "Web Application")
+
+
+## Future Work
+
+There are a plethora of possible future improvements for the platform. Once hundreds of users are using the solution, it will be possible to take advantage of the information collected; statistics about what products are bought, their geographic areas, frequency of purchase, among other. Information that provides. With this data the platform will be able to recommend products to users, based on their previous purchases.
+RFID will eventually replace barcodes for grocery tagging, therefore creating new ways of interaction. Products no longer will have to be manually scanned, but they could just be disposed and be automatically scanned, rendering the process effortless.
