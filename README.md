@@ -43,3 +43,9 @@ The web application is accessible from mobile devices or computers, allowing the
 
 There are a plethora of possible future improvements for the platform. Once hundreds of users are using the solution, it will be possible to take advantage of the information collected; statistics about what products are bought, their geographic areas, frequency of purchase, among other. Information that provides. With this data the platform will be able to recommend products to users, based on their previous purchases.
 RFID will eventually replace barcodes for grocery tagging, therefore creating new ways of interaction. Products no longer will have to be manually scanned, but they could just be disposed and be automatically scanned, rendering the process effortless.
+
+## Credit
+
+** Tofi Buzali
+** David Gomez Urquiza
+** Adolfo Bucay
