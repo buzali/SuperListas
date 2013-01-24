@@ -18,7 +18,7 @@ The system comprises of three main modules: the device that scans and transmits 
 The powerful, yet energy efficient microcontroller, Microchip PIC24FJ256GA106 was utilized as the main controller of the embedded device. The microcontroller is connected to the barcode scanner LV1000 that reads the UPC and EAN codes and transmits them via RS232 protocol to the microcontroller. To interface the system with the server, the microcontroller connects via Wi-Fi (IEEE 802.11b) utilizing Microchip’s module, MRF24WB0MA. An LCD display and a rotary encoder are used to interface with the user and display information. In order to store device settings and preferences, an EEPROM memory is also included. To further expand the capabilities of this device, external I/O and USB interfaces were integrated.
 
 
--![alt text](http://i.imgur.com/SbV4fyv.png "Diagram of embeded device")
+![alt text](http://i.imgur.com/SbV4fyv.png "Diagram of embeded device")
 
 ### Backend
 
@@ -27,7 +27,7 @@ The embedded device sends a POST request to the web server containing the user I
 When the web service tries to match the UPC code against the records in the database, and a record is not found, a request is sent to third party services, which is used to retrieve and cache relevant information about a product.
 Accessing the database is done via an Object-relational mapping (ORM) to ease the workflow and use a higher layer of abstraction of the database models.
 
--![alt text](http://i.imgur.com/2ggIXIV.png "Backend diagram")
+![alt text](http://i.imgur.com/2ggIXIV.png "Backend diagram")
 
 
 ### Frontend
@@ -36,7 +36,7 @@ Users can access and manage the information recollected by the embedded device b
 The web application communicates to the backend through the RESTful API, where a user can easily outperform the actions the device is able to do. The user can perform actions such as add or remove a product, modify the quantities, or order the products directly from the supermarket. 
 The web application is accessible from mobile devices or computers, allowing the user to access the service while in a supermarket, even several users can manage the grocery list in real time making it possible to add products on the go.
 
--![alt text](http://i.imgur.com/YhtY6pL.png "Web Application")
+![alt text](http://i.imgur.com/YhtY6pL.png "Web Application")
 
 
 ## Future Work
