@@ -1,0 +1,16 @@
+
+
+http://www.superama.com.mx/validaBundleSushi.asp
+
+simpleCart0=c1||38.2||0750101823009||c||11||la&6gloria&6aceite&6de&6maíz&61&6litro||
+simpleCart0=c1||38.2||0750101823009||c||21||la&6gloria&6aceite&6de&6maíz&61&6litro||
+
+c8||38.2||0750101823009||c||10||LA&6GLORIA&6ACEITE&6DE&6MAÍZ&61&6LITRO||
+
+
+c1||38.2||0750101823009||c||31||la&6gloria&6aceite&6de&6maíz&61&6litro||||undefined ~~c4||33||0006414403033||c||2||PAM&6ACEITE&6ANTIADHERENTE&6EN&6AEROSOL&6SABOR&6MANTEQUILLA&6141&6GRAMOS|| ~~c6||95||0001952110001||c||1||CARAPELLI&6ACEITE&6DE&6OLIVA&6EXTRA&6VIRGEN&6750&6MILILITROS||
+
+
+Cookies:
+superamaTotal:<productos>|<total con 1 decimal>
+simpleCart0:??||<precio unitario 1 decimal>||<upc superama>||c||<cantidad total>||<nombre con espacios=&6>

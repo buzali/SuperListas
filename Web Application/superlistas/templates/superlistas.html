@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>SuperListas | Lista</title>
+  <meta name="description" content="">
+  <meta name="author" content=""><!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <!-- *****Le scripts*****-->
+
+  <script src="../site_media/js/jquery-1.7.min.js" type="text/javascript">
+</script>
+  <script src="../site_media/js/jquery.tablesorter.min.js" type="text/javascript">
+</script>
+  <script src="../site_media/js/bootstrap-twipsy.js" type="text/javascript">
+</script>
+  <script src="../site_media/js/superlistas.js" type="text/javascript">
+</script>
+  
+  <!-- *****Le styles***** -->
+  <!-- 
+    <link rel="stylesheet" href="../site_media/bootstrap/bootstrap.min.css">
+ -->
+  <link rel="stylesheet/less" href="../site_media/css/less/bootstrap.less" type="text/css">
+  <script type="text/javascript" src="../site_media/js/less-1.1.5.min.js">
+</script>
+  <link rel="stylesheet" type="text/css" href="../site_media/css/style.css"><!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="fill">
+      <div class="container">
+        <a class="brand" href="#">SuperListas</a>
+
+        <ul class="nav">
+          <li class="active"><a href="#">Perfil</a></li>
+
+          <li><a href="#about">Listas</a></li>
+
+          <li><a href="#contact">Acerca de</a></li>
+        </ul>
+
+        <form action="" class="pull-right">
+          <input class="input-small" type="text" placeholder="Usuario"> <input class="input-small" type="password" placeholder="Contraseña"> <button class="btn" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="content">
+      <div class="page-header">
+        <h1>Davoclavo</h1>
+      </div>
+
+      <div class="row">
+        <div class="span10">
+          <h2>Lista Cotidiana</h2><br>
+
+          <table class="condensed-table zebra-striped" id="tablaProductos">
+            <thead>
+              <tr>
+                <th class="red header">#</th>
+
+                <th class="header headerSortUp">Producto</th>
+                <th class="green header">Precio</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="prod" id="012341234123">
+                <td class="cant">
+                  <div class="num">
+                    1
+                  </div>
+                </td>
+
+                <td class="descripcion">Agua Electropura 2L</td>
+              </tr>
+
+              <tr class="prod">
+                <td class="cant">
+                  <div class="num">
+                    4
+                  </div>
+                </td>
+
+                <td class="descripcion">Tostadas Sanissimo 240gr</td>
+              </tr>
+
+              <tr class="prod">
+                <td class="cant">
+                  <div class="num">
+                    97
+                  </div>
+                </td>
+
+                <td class="descripcion">PAM Aerosol 250ml</td>
+              </tr>
+              
+              <tr class="prod">
+                <td class="cant">
+                  <div class="num">
+                    5
+                  </div>
+                </td>
+
+                <td class="descripcion">Ricos Tamales Oaxaqueños</td>
+              </tr>
+              
+              </tbody>
+          </table>
+        </div>
+
+        <div class="span4">
+          <h3>Listas</h3>
+
+          <div class="clearfix">
+            <div class="input">
+              <select name="stackedSelect" id="stackedSelect">
+                <option>
+                  Cotidiana
+                </option>
+
+                <option>
+                  Fiesta
+                </option>
+
+                <option>
+                  Cuernavaca
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        <p>&copy; SuperListas 2011</p>
+    </footer>
+  </div><!-- /container -->
+</body>
+</html>

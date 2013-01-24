@@ -1,0 +1,3 @@
+instalar django-annoying para poder hacer get_object_or_None, en vez de mucho try catch
+
+instalar django-evolution para poder actualizar bien los modelos

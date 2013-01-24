@@ -1,0 +1,17 @@
+{% load dajaxice_templatetags %}
+
+<html>
+  <head>
+    <title>Prueba Dajaxice</title>
+    {% dajaxice_js_import %}
+    <script type="text/javascript">
+        function popop(data) {
+            alert(data.msg);
+        }
+    </script>
+  </head>
+<p id='popo'>1</p>
+<input type="button" value="ajax, limpia y pule tu cocina" onclick="Dajaxice.upc.prueba(function(data){
+alert(data.msg)
+});">
+</html>
