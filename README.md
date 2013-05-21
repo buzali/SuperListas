@@ -23,8 +23,8 @@ The powerful, yet energy efficient microcontroller, Microchip PIC24FJ256GA106 wa
 
 ### Working Device
 
-![alt text](http://i.imgur.com/1T3In7h.jpg "Front PCB")
-![alt text](http://i.imgur.com/WPR6LQ2.jpg "Populated back")
+![alt text](http://i.imgur.com/WPR6LQ2.jpg "Front PCB")
+![alt text](http://i.imgur.com/1T3In7h.jpg "Populated back")
 ![alt text](http://i.imgur.com/5Aw8lwh.jpg "Populated front")
 
 
