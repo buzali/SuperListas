@@ -1,11 +1,18 @@
 SuperListas
 =============
 
-SuperListas is a consumer electronics device and web platform that improves the grocery shopping experience and automate the creation of shopping lists. The idea is simple, when you run out of a product, you scan it using the device and it automatically sends the information to the server and creates a shopping list that you can manage online through a computer or smartphone.
+SuperListas is a consumer electronics device that automates the creation of shopping lists using a barcode scanner. It is simple, when you run out of a product, you scan it and the device automatically creates a shopping list that you can manage online from your computer or smartphone.
+
+
+### Working Device
+
+![alt text](http://i.imgur.com/WPR6LQ2.jpg "Front PCB")
+![alt text](http://i.imgur.com/1T3In7h.jpg "Populated back")
+![alt text](http://i.imgur.com/5Aw8lwh.jpg "Populated front")
 
 ## Introduction
 
-Making grocery lists with regularity has been an arduous task, especially for people who plan their grocery shopping mentally, and then create a handwritten list.  This is generally exhausting, particularly to housewives, househusbands and people with full-time jobs.
+Making grocery lists has been an arduous task, especially for people who plan their grocery shopping mentally, and then create a handwritten list.  This is generally exhausting, particularly to housewives, househusbands and people with full-time jobs.
 The constant growth and development of e-commerce and mobile applications has improved the shopping methods of those who have taken advantage of these technologies. Supermarkets have exploited these resources by offering their customers the possibility to order products via web pages or mobile apps. Buyers will receive their products shortly after in the convenience of their doorstep, saving time and effort. 
 To take advantage of this new tendency and to solve the main need, a product was developed. This integrated system consists of two parts: an electronic device capable of barcode scanning and WiFi connection, as well as a web platform designed to display a list consisting of the previously scanned products and the possibility of ordering through it. 
 
@@ -19,13 +26,6 @@ The powerful, yet energy efficient microcontroller, Microchip PIC24FJ256GA106 wa
 
 
 ![alt text](http://i.imgur.com/SbV4fyv.png "Diagram of embeded device")
-
-
-### Working Device
-
-![alt text](http://i.imgur.com/WPR6LQ2.jpg "Front PCB")
-![alt text](http://i.imgur.com/1T3In7h.jpg "Populated back")
-![alt text](http://i.imgur.com/5Aw8lwh.jpg "Populated front")
 
 
 ### Backend
